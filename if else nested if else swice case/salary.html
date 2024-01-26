@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let salary,total_salary;
+        salary=parseInt(prompt("enter salary"));
+
+        if(salary>=1000 && salary<5000){
+            total_salary=salary+1000;
+        }
+        else if(salary>=5000 && salary<10000){
+            total_salary=salary+2000;
+        }
+        else if(salary>=10000 && salary<20000){
+            total_salary=salary+3000;
+        }
+        else if(salary>=20000 && salary<=50000){
+            total_salary=salary+4000;
+        }
+        else{
+            total_salary=salary;
+        }
+
+        document.write('total salary is',total_salary);
+        
+    </script>
+</body>
+</html>
