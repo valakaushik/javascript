@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var arr = [];
+
+        let arr_num = [];
+        let inp1= prompt("enter any numbers,sperated by comma:");
+        let inp_value = inp1.split(",");
+
+        for(let i=0; i<inp_value.length;i++){
+            let numeric_val = parseInt(inp_value[i]);
+
+                arr_num.push(numeric_val);
+            }
+            document.writeln("<br>array is : ", arr_num);
+    
+    </script>
+</body>
+
+</html>
