@@ -1,3 +1,4 @@
+
 let tr ='';
 const adddata = (i) =>{
     tr += i;
@@ -139,4 +140,4 @@ class ClickSpark extends HTMLElement {
   colorPicker.addEventListener("change", (e) => {
     spark.style.setProperty("--click-spark-color", e.target.value);
   });
-// end  
+  
