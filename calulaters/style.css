@@ -1,103 +1,102 @@
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-/* curser css */
+ /* curser css */
+
+
 
 
 html,
 body {
   height: 100%;
 }
-body {
-    display: grid;
-    place-items: end start;
-    font-family: system-ui, sans-serif;
-    padding: 1.5rem;
-  }
-  
-  label {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    user-select: none;
-  }
-  
-  input[type="color"] {
-    --size: 2em;
-    flex-shrink: 0;
-    appearance: none;
-    box-sizing: border-box;
-    cursor: pointer;
-    height: var(--size);
-    width: var(--size);
-    padding: 0;
-    border: 0;
-    border-radius: 50%;
-  }
-  
-  input[type="color" i]::-webkit-color-swatch-wrapper {
-    padding: 0;
-  }
-  
-  input[type="color" i]::-webkit-color-swatch {
-    border-radius: 50%;
-  }
-  
-  input[type="color" i]::-moz-color-swatch {
-    border-radius: 50%;
-  }
-  
-  ::-webkit-color-swatch,
-  ::-moz-color-swatch {
-    border-color: transparent;
-  }
-  /* cursur end   */
+
+
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  user-select: none;
+}
+
+input[type="color"] {
+  --size: 2em;
+  flex-shrink: 0;
+  appearance: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: var(--size);
+  width: var(--size);
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+}
+
+input[type="color" i]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+input[type="color" i]::-webkit-color-swatch {
+  border-radius: 50%;
+}
+
+input[type="color" i]::-moz-color-swatch {
+  border-radius: 50%;
+}
+
+::-webkit-color-swatch,
+::-moz-color-swatch {
+  border-color: transparent;
+}
+
 h2 {
-    text-align: center;
-    padding: 15px 0px;
-    font-weight: 100;
+  text-align: center;
+  padding: 15px 0px;
+  font-weight: 100;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20vh;
 }
 
 .field{
-    padding: 10px;
-    font-size: 18.4px;
-    border-radius: 10px;
-    border: 0px;
-    margin-top: 10px;
+  padding: 10px;
+  font-size: 18.4px;
+  border-radius: 10px;
+  border: 0px;
+  margin-top: 10px;
 }
 
 button{
-    height: 40px;
-    width: 50px;
-    padding: 12px;
-    margin: 5px;
-    font-size: 22px;
-    background-color: rgb(136, 119, 119);
-    border-radius: 5px;
-    border: 0px;
+  height: 40px;
+  width: 50px;
+  padding: 12px;
+  margin: 5px;
+  font-size: 22px;
+  background-color: rgb(136, 119, 119);
+  border-radius: 5px;
+  border: 0px;
 }
 
 button:hover{
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .lock{
-    color: rgb(98, 12, 12);
+  color: rgb(98, 12, 12);
 }
 .card{
-    padding: 60px;
-    border: 1px solid rgb(0, 0, 0);
-    background-color: rgb(225, 240, 240);
-    border-radius: 10px;
+  padding: 60px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(225, 240, 240);
+  border-radius: 10px;
 }
