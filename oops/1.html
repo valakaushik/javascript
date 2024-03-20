@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        class User {
+            constructor(username, surname, age, salary, qualification) {
+                this.username = username;
+                this.surname = surname;
+                this.age = age;
+                this.salary = salary;
+                this.qualification = qualification;
+            }
+            display() {
+                document.writeln("<br>","username :", this.username, "<br />", "surname : ", this.surname, "<br />", "age : ", this.age, "<br />",
+                    "salary : ", this.salary, "<br>",);
+                document.write("Qualifications: ");
+                this.qualification.forEach(elem => {
+                    document.write(elem, " ");
+                });
+            }
+        }
+
+        object1 = new User();
+        object1.username = "kaushik";
+        object1.surname = "vala";
+        object1.age = 19;
+        object1.salary = "100000";
+        object1.qualification = ["10th", "12th", "Bcom"];
+        object1.display();
+
+        //second object 
+        object2 = new User();
+        object2.username = "kaushik";
+        object2.surname = "Developer";
+        object2.age = 20;
+        object2.salary = "1000000";
+        object2.qualification = ["10th", "12th", "Bcom",];
+        object2.display();
+
+    </script>
+</body>
+
+</html>

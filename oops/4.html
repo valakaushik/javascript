@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class student {
+            constructor(name, age, marks) {
+                this.name = name;
+                this.age = age;
+                this.marks = [70, 80, 90];
+            }
+
+            showDetails() {
+                document.write('<br/>', "name :",this.name,'<br/>', "age :", this.age , '<br/>');
+            }
+
+            showMarks() {
+                let sum = 0; 
+                for (let i = 0; i < this.marks.length; i++) {
+                    sum += this.marks[i];
+                }
+                return sum / this.marks.length;
+            }
+        }
+
+        // Create object
+        let s1 = new student();
+        s1.name = "Kaushik";
+        s1.age = "19";
+        s1.showDetails();
+        document.write('<br/>', "Average marks:", s1.showMarks()); 
+    </script>
+</body>
+
+</html>
